@@ -153,6 +153,7 @@ class ContactUsController extends Controller
 
     public function userShare(Request $request)
     {
+        // share to other user
         $curUserId = Auth::user()->id; 
         $username = Auth::user()->email; 
 
